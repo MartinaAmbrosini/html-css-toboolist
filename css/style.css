@@ -11,14 +11,8 @@ body {
 
 header {
     background-color: white;
-    width: 2000px;
+    width: 100%;
 }
-
-.container {
-    width: 80%;
-    height: 20px auto
-}
-
 
 /* stile header */
 
@@ -41,13 +35,54 @@ header {
     margin-top: 0.5%;
 }
 
+/* style main */
 main {
-    text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     background: rgb(255, 255, 255);
     margin: auto;
     width: 60%;
     height: 800px;
     margin-top: 3%;
-    margin-left: 33%;   
+    margin-left: 20%;
+}
+
+.button {
+    border-bottom: 3px solid rgba(233, 226, 226, 0.781);
+}
+
+input {
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+#bottone1 {
+    background-color: rgb(57, 118, 187);
+    color: aliceblue;
+    border-style: solid;
+    border-color: rgb(57, 118, 187);
+}
+
+#bottone2 {
+    background-color: whitesmoke;
+    color: rgb(184, 182, 182);
+    border-color: rgb(184, 182, 182);
+    margin-left: 1px;
+    border-style: solid;
+}
+
+.list {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+#Arrow {
+    size: 20px;
+    width: 100%;
+    vertical-align: middle;
 }

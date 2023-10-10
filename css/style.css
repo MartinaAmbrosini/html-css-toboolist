@@ -1,33 +1,38 @@
 /* Style iniziale di pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body{
+:root {
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 150%;
 }
 
 .container {
-    background-color: white;
+    width: 80%;
+    height: 20px auto
 }
 
-header {
-    width: 100%;
-    margin: 0;
-    height: 100px;
-}
 
-img {
-    width: 60px;
-    height: 60px;
-    margin-top: 1%;
+/* stile header */
+
+#logo {
+    height: 75px;
+    line-height: 75px;
+    vertical-align: middle;
     margin-left: 1%;
-    line-height: 2%;
+    margin-top: 1%;
 }
+
 
 #text_logo {
     color: black;
     font-size: 50px;
     font-weight: bolder;
     display: inline-block;
-    vertical-align: text-bottom;
-    line-height: 65px;
+    vertical-align: middle;
+    margin-top: 1%;
 }
+

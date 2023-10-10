@@ -48,6 +48,7 @@ main {
 
 .button {
     border-bottom: 3px solid rgba(233, 226, 226, 0.781);
+    padding-bottom: 1%; 
 }
 
 input {
@@ -59,6 +60,7 @@ input {
     margin-left: 7%;
 }
 
+/* style buttons */
 #bottone1 {
     background-color: rgb(57, 118, 187);
     color: aliceblue;
@@ -76,13 +78,102 @@ input {
 
 .list {
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 0;
     margin-top: 2%;
     margin-left: 7%;
 }
 
+/* Style elementi della lista  */
 #Arrow {
-    size: 20px;
-    width: 100%;
-    vertical-align: middle;
+    vertical-align: top;
+    font-size: 40px;
+}
+
+
+h1{
+    margin: 0;
+}
+
+#checkmark::after {
+    line-height: 20px;
+    font-size: 20px;
+    border: 3px solid rgb(74, 207, 130);
+    border-radius: 100%;
+    content: '✔';
+    color: rgb(74, 207, 130);
+}
+
+#text {
+    color: black;
+    font-size: 20px;
+}
+
+#label {
+    border-radius: 10px;
+}
+
+#editorial {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 7px;
+    color: white;
+}
+
+.item {
+    margin-bottom: 1%;
+}
+
+#Q1 {
+    background-color:rgb(126, 23, 146);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 7px;
+    color: white;
+}
+
+#redcross::after {
+    line-height: 20px;
+    font-size: 15px;
+    border: 3px solid rgb(238, 18, 18);
+    border-radius: 100%;
+    content: "\274c";
+}
+
+#Recruiting {
+    background-color:rgb(22, 184, 122);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 7px;
+    color: white;
+}
+
+#mobile {
+    background-color:rgb(238, 141, 14);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 7px;
+    color: white;
+}
+
+#Website {
+    background-color:rgb(224, 42, 185);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 7px;
+    color: white;
+}
+
+#Sales {
+    background-color:rgb(176, 224, 42);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 7px;
+    color: white;
 }
